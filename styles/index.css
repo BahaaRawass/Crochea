@@ -1,0 +1,32 @@
+/*
+
+This CSS file contains general or common styles that are used throughout the website. It may include styles for typography, layout, colors, and other design elements that are shared across multiple pages.
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
